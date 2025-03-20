@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.container-serviços{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.servico-item {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 450px;
+    height: 300px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.servico-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+.servico-item svg {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.servico-item h1 {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.servico-item p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+}
+
+.text-serviços {
+    font-size: 2.5rem; /* Tamanho da fonte do título */
+    font-weight: bold; /* Negrito */
+    color: #343a40; /* Cor do texto */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.text-contato {
+    font-size: 2.5rem; /* Tamanho da fonte do título */
+    font-weight: bold; /* Negrito */
+    color: #343a40; /* Cor do texto */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.text-ln-tempo {
+    font-size: 2.5rem; /* Tamanho da fonte do título */
+    font-weight: bold; /* Negrito */
+    color: #343a40; /* Cor do texto */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
